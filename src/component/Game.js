@@ -93,7 +93,6 @@ export function Game () {
 
     function handleSortClick() {
         setSortAscending(!sortAscending);
-        changeBoardSize(10);
     }
 
     function changeBoardSize(newSize) {
